@@ -1,0 +1,57 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital@1&family=Monofett&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Monofett&display=swap'); */
+
+/* body {
+	font-family: 'Merriweather', serif;
+	font-family: 'Monofett', cursive;
+} */
+
+/* !header section customs css */
+
+.orange-color {
+	color: #e76f51;
+}
+
+.header-section {
+	background-color: #264653;
+}
+.btn-orange {
+	padding: 10px 24px;
+	background: #e76f51;
+	border-color: #e76f51;
+}
+
+.btn-outline-orange {
+	padding: 10px 24px;
+	background: transparent;
+	border-color: #e76f51;
+	color: #e76f51 !important;
+}
+.btn-outline-orange:hover {
+	transition: 0.3s;
+	background: #e76f51;
+	color: white !important;
+}
+
+.text-color {
+	color: #e0e0e0;
+}
+
+/* h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: 'Monofett', cursive;
+} */
+
+/* create grey image  */
+
+.img-grey {
+	filter: grayscale(100%);
+}
+
+.object-cover {
+	object-fit: cover;
+}
