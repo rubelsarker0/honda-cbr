@@ -1,19 +1,21 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital@1&family=Monofett&display=swap'); */
-/* @import url('https://fonts.googleapis.com/css2?family=Monofett&display=swap'); */
+/************************************************** 
+** All the Fonts 
+***************************************************/
+@import url('https://fonts.googleapis.com/css2?family=Graduate&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
-/* body {
-	font-family: 'Merriweather', serif;
-	font-family: 'Monofett', cursive;
-} */
+body {
+	font-family: 'Lato', sans-serif;
+}
 
-/* h1,
+h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
-	font-family: 'Monofett', cursive;
-} */
+	font-family: 'Graduate', cursive;
+}
 
 /* !Generic CSS  */
 .orange-color {
@@ -41,6 +43,11 @@ h6 {
 	color: white !important;
 }
 
+.shadow {
+	box-shadow: 0 2px 6px 0 rgb(218 218 253 / 65%),
+		0 2px 6px 0 rgb(206 206 238 / 54%);
+}
+
 /* !header section customs css */
 .header-section {
 	background-color: #264653;
@@ -55,26 +62,6 @@ h6 {
 .object-cover {
 	object-fit: cover;
 }
-
-/* .company-details-link ul li {
-	list-style: none;
-	text-decoration: none;
-	cursor: pointer;
-	margin: 10px;
-}
-.company-details-link ul li:hover {
-	color: #e76f51;
-}
-
-.download-license-section ul li {
-	list-style: none;
-	text-decoration: none;
-	cursor: pointer;
-	margin: 10px;
-}
-.download-license-section ul li:hover {
-	color: #e76f51;
-} */
 
 .feture-bikes-border {
 	/* display: block; */
