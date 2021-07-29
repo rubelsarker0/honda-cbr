@@ -6,15 +6,23 @@
 	font-family: 'Monofett', cursive;
 } */
 
-/* !header section customs css */
+/* h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: 'Monofett', cursive;
+} */
 
+/* !Generic CSS  */
 .orange-color {
 	color: #e76f51;
 }
-
-.header-section {
-	background-color: #264653;
+.grey-color {
+	color: #e0e0e0;
 }
+
 .btn-orange {
 	padding: 10px 24px;
 	background: #e76f51;
@@ -33,18 +41,10 @@
 	color: white !important;
 }
 
-.text-color {
-	color: #e0e0e0;
+/* !header section customs css */
+.header-section {
+	background-color: #264653;
 }
-
-/* h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-	font-family: 'Monofett', cursive;
-} */
 
 /* create grey image  */
 
@@ -76,7 +76,7 @@ h6 {
 	color: #e76f51;
 }
 
-.about-border {
+.feture-bikes-border {
 	/* display: block; */
 	width: 80px;
 	height: 3px;
