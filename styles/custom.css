@@ -48,6 +48,10 @@ h6 {
 		0 2px 6px 0 rgb(206 206 238 / 54%);
 }
 
+.text-justify-class {
+	text-align: justify;
+}
+
 /* !header section customs css */
 .header-section {
 	background-color: #264653;
