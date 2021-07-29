@@ -52,6 +52,31 @@ h6 {
 .text-justify-class {
 	text-align: justify;
 }
+
+a.btn-scroll {
+	position: fixed;
+	right: 20px;
+	bottom: 20px;
+	text-align: center;
+	padding: 16px 20px;
+	background: #2ecc71;
+	border-radius: 5px;
+	text-decoration: none;
+	color: white;
+	z-index: 9999;
+	animation: scroll 2s ease 0s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate-reverse;
+}
+@keyframes scroll {
+	0% {
+		opacity: 0.05;
+	}
+	100% {
+		z-index: 2;
+		opacity: 1;
+	}
+}
 /* !Generic CSS end*/
 
 /* !header section customs css */
